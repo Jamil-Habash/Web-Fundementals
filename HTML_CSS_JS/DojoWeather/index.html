@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Profile Page</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id="first">
+            <h1>DojoWeather</h1>
+            <div id="gg" onclick="changeCity()">
+                <label>Burbank</label>
+                <label>Chicago</label>
+                <label>Dallas</label>
+            </div>
+        </div>
+        <div id="second">
+            <h2>San Jose</h2>
+            <div id="gg">
+                <label>show temerature in</label>
+                <select onchange="tempChange(this)">
+                    <option>°C</option>
+                    <option>°F</option>
+                </select>
+            </div>
+        </div>
+        <div id="cards">
+            <div id="first_card">
+                <h3>Today</h3>
+                <img src="icons/some_rain.png" alt="it will rain much"><br>
+                <label id="hh">Some Rain</label><br><br>
+                <label id="hh"><span id="first-degree">24°</span></label>
+                <label id="hh"><span id="second-degree">18°</span></Label>
+            </div>
+            <div id="first_card">
+                <h3>Tomorrow</h3>
+                <img src="icons/some_sun.png" alt="it will rain much"><br>
+                <label id="hh">Some Sun</label><br><br>
+                <label id="hh"><span id="first-degree">27°</span></label>
+                <label id="hh"><span id="second-degree">19°</span></Label>
+            </div><div id="first_card">
+                <h3>Friday</h3>
+                <img src="icons/some_clouds.png" alt="it will rain much"><br>
+                <label id="hh">Some Clouds</label><br><br>
+                <label id="hh"><span id="first-degree">21°</span></label>
+                <label id="hh"><span id="second-degree">16°</span></Label>
+            </div><div id="first_card">
+                <h3>Saturday</h3>
+                <img src="icons/some_sun.png" alt="it will rain much"><br>
+                <label id="hh">Some Sun</label><br><br>
+                <label id="hh"><span id="first-degree">26°</span></label>
+                <label id="hh"><span id="second-degree">21°</span></Label><br><br>
+            </div>
+        </div>
+        <div id="cookie">
+            <img src="icons/cookie.png">
+            <div id="cookie-text">
+                <h3>Stop! Cookie time</h3>
+                <label>We use cookies (sadly nit the edible ones) to personalize content and ads, to provide social media and to analyse our traffic. <span id="read-more">Read more...</span></label>
+            </div>
+            <button id="btn" onclick="removeCookie()">I Accept</button>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

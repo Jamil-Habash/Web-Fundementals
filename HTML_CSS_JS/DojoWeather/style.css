@@ -1,0 +1,92 @@
+#first{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(141, 206, 247);
+}
+h1{
+    margin-left: 25px;
+}
+
+label{
+    margin-right:25px;
+}
+
+#gg{
+    justify-content: flex-end;
+}
+
+#hh{
+    margin-left: 30px;
+}
+
+#second{
+    margin-left: 25px;
+    margin-right:25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: solid;
+}
+
+#first-degree{
+    font-family: 'poppins', sans-serif;
+    color: red;
+}
+#second-degree{
+    font-family: 'poppins', sans-serif;
+    color: blue;
+}
+
+img{
+    margin: 25px 25px 25px 25px;
+    border-radius: 50%;
+    width: 100px;
+
+}
+
+#first_card{
+    border-radius: 25px;
+    width: 500px;
+    background-color: rgb(216, 214, 214);
+    margin-left: 25px;
+    margin-right: 25px;
+    align-items: center;
+    text-align: center;
+}
+
+#cards{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#cookie{
+    margin:25px 25px 25px 25px;
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(216, 214, 214);
+    border: solid;
+}
+
+#btn{
+    background-color: rgb(68, 139, 220);
+    margin-right: 25px;
+    box-shadow: 2px 2px 2px;
+    width: 150px;
+}
+
+#cookie-text{
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+#read-more{
+    color: blue;
+    text-decoration: underline;
+}
