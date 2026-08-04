@@ -1,0 +1,29 @@
+div{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: black;
+}
+
+.nav-links{
+    color: BLACK;
+    width:800px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+a{
+    color: white;
+    margin: 0 15px;
+    align-items: center;
+
+}
+
+.btn{
+    background-color: rgb(32, 173, 220);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
