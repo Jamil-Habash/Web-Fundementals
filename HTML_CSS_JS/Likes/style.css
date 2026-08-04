@@ -1,0 +1,50 @@
+h1{
+    color: white;
+    background-color: black;
+}
+
+#first{
+    margin: 20px 20px 20px 20px;
+    border: 2px solid;
+    
+}
+
+.fff{
+    margin: 20px 20px 20px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+p{
+    margin: 20px 20px 20px 20px;
+}
+
+#likebtn{
+    background-color: rgb(255, 234, 0);
+    box-shadow: 2px 2px 2px;
+
+}
+
+#hhh{
+    margin: 20px 20px 20px 20px;
+    border: 2px solid black;
+    height: 240px;
+    align-items: center;
+}
+
+#last{
+    display: flex;
+    justify-content: space-between;
+}
+
+#addavatar, #sss{
+    text-decoration: underline;
+    color: blue;
+    margin: 17px;
+}
+
+h2{
+    margin: 15px;
+    font-size: 21px;
+}
